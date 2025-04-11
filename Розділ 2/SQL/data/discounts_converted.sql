@@ -1,0 +1,10 @@
+insert into discounts (id, code, discount_percent, active, expires_at) values (1, 'LUCKY50', 89.14, false, '2024-12-20');
+insert into discounts (id, code, discount_percent, active, expires_at) values (2, 'CODE123', 50.93, false, '2024-10-11');
+insert into discounts (id, code, discount_percent, active, expires_at) values (3, 'CODE123', 64.75, false, '2024-08-05');
+insert into discounts (id, code, discount_percent, active, expires_at) values (4, 'SALE15', 17.63, false, '2024-06-24');
+insert into discounts (id, code, discount_percent, active, expires_at) values (5, 'SAVEBIG', 66.61, false, '2024-10-02');
+insert into discounts (id, code, discount_percent, active, expires_at) values (6, 'BARGAIN25', 80.51, false, '2024-10-04');
+insert into discounts (id, code, discount_percent, active, expires_at) values (7, 'CODE123', 89.43, false, '2024-04-26');
+insert into discounts (id, code, discount_percent, active, expires_at) values (8, 'SHOPNOW', 62.99, false, '2024-08-26');
+insert into discounts (id, code, discount_percent, active, expires_at) values (9, 'LUCKY50', 2.64, true, '2025-06-11');
+insert into discounts (id, code, discount_percent, active, expires_at) values (10, 'CODE123', 9.13, true, '2025-05-30');

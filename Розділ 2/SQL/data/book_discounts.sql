@@ -1,0 +1,10 @@
+insert into book_discounts (book_id, discount_id) values (60, 6);
+insert into book_discounts (book_id, discount_id) values (58, 5);
+insert into book_discounts (book_id, discount_id) values (80, 5);
+insert into book_discounts (book_id, discount_id) values (90, 5);
+insert into book_discounts (book_id, discount_id) values (87, 4);
+insert into book_discounts (book_id, discount_id) values (46, 4);
+insert into book_discounts (book_id, discount_id) values (29, 10);
+insert into book_discounts (book_id, discount_id) values (32, 1);
+insert into book_discounts (book_id, discount_id) values (98, 9);
+insert into book_discounts (book_id, discount_id) values (5, 4);
