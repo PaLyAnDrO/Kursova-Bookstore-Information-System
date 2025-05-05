@@ -1,0 +1,152 @@
+
+.bookstore-header {
+    background-color: #9FB3DF;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.bookstore-header-left-section {
+    flex: 1;
+    height: 60px;
+}
+
+@media (max-width: 800px) {
+    .bookstore-header-left-section {
+        width: unset;
+    }
+}
+
+.header-link {
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/*.header-link:hover {
+    border: 1px solid #9EC6F3;
+}*/
+
+.bookstore-logo {
+    width: 80px;
+}
+
+.bookstore-mobile-logo {
+    display: none;
+}
+
+@media (max-width: 575px) {
+    .bookstore-logo {
+        display: none;
+    }
+
+    .bookstore-mobile-logo {
+        display: block;
+        height: 35px;
+        margin-top: 5px;
+    }
+}
+
+.bookstore-header-middle-section {
+    flex: 3;
+    max-width: 850px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.search-bar {
+    flex: 1;
+    width: 0;
+    font-size: 16px;
+    height: 38px;
+    padding-left: 15px;
+    border: none;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-button {
+    background-color: #ffe2a4;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-shrink: 0;
+}
+
+.search-button:hover {
+    background-color: #FFF1D5;
+    outline: 2px solid #9EC6F3;
+    transition: background-color 120ms ease;
+}
+
+.search-icon {
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 3px;
+}
+
+.bookstore-header-right-section {
+    flex: 2;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.login-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.cart-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.cart-icon, .login-icon {
+    width: 25px;
+}
+
+.cart-text, .login-text {
+    display: block;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.cart-quantity {
+    color: rgb(240, 136, 4);
+    font-size: 16px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 4px;
+    left: 22px;
+
+    width: 26px;
+    text-align: center;
+}

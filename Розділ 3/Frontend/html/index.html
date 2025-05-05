@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel='stylesheet' href='../stylesheets/general.css' />
+	<link rel='stylesheet' href='../stylesheets/header.css' />
+	<link rel='stylesheet' href='../stylesheets/sidebar.css' />
+	<link rel='stylesheet' href='../stylesheets/index.css' />
+</head>
+<body>
+<div class="bookstore-header">
+	<div class="bookstore-header-left-section">
+		<a href="header.html" class="header-link">
+			<img class="bookstore-logo" src="../images/logo.png">
+		</a>
+	</div>
+
+	<div class="bookstore-header-middle-section">
+		<input class="search-bar" type="text" placeholder="Find a book">
+		<button class="search-button">
+			<img class="search-icon" src="../images/icons/search.svg" alt="">
+		</button>
+	</div>
+
+	<div class="bookstore-header-right-section">
+		<a class="cart-link header-link" href="orders.html">
+			<img class="cart-icon" src="../images/icons/cart.svg" alt="">
+			<div class="cart-quantity js-cart-quantity"></div>
+			<span class="cart-text">Cart</span>
+		</a>
+		<a class="login-link header-link" href="checkout.html">
+			<img class="login-icon" src="../images/icons/person.svg">
+			<span class="login-text">Log in</span>
+		</a>
+	</div>
+</div>
+
+<div class="sidebar">
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+	<div class="sidebar-link">
+		<a href="" class="genre-link">
+			<span class="genre-text">Home</span>
+		</a>
+	</div>
+</div>
+
+<div class="main">
+	<div class="sorting-container">
+		<div class="amount-of-books">45646 Items</div>
+
+		<div class="sorting-menu">
+			<select class="js-quantity-selector-${product.id}">
+				<option selected value="1">Popular</option>
+				<option value="2">New products</option>
+				<option value="3">From expensive to cheap</option>
+				<option value="4">From cheap to expensive</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="products-grid js-products-grid">
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<img src="../images/icons/star-rating.svg" alt="" class="rating-icon">
+				<div class="product-rating-count">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+		<div class="product-container">
+			<div class="product-image-container">
+				<a href="">
+					<img class="product-image"
+					     src="../data/book_images/000755303X.jpg">
+				</a>
+			</div>
+
+			<a href="">
+				<div class="product-name limit-text-to-2-lines">
+					JDFHjs dskjfh sdkh
+				</div>
+			</a>
+
+			<div class="author-name limit-text-to-2-lines">
+				SJD sfsdhkdsj
+			</div>
+
+
+			<div class="product-rating-container">
+				<div class="product-rating-count link-primary">
+					5
+				</div>
+			</div>
+
+			<div class="product-price">
+				$10.68
+			</div>
+
+			<div class="product-spacer"></div>
+
+			<button class="add-to-cart-button button-primary js-add-to-cart"
+			        data-product-id="${product.id}">
+				Add to Cart
+			</button>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
